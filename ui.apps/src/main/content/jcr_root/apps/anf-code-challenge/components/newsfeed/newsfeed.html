@@ -1,0 +1,22 @@
+<sly data-sly-use.newsFeed="com.anf.core.models.NewsFeed"/>
+<div class="container">
+    <div class="col-md-9">
+        <sly data-sly-list.feedItem="${newsFeed.items}">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" class="">
+                        <img src="${feedItem.urlImage}" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-sm-8">
+                    <h3 class="title">${feedItem.title}</h3>
+                    <p class="text-muted">
+                       ${feedItem.currentDate}
+                    </p>
+                    <p>${feedItem.description  @ context = 'html'}</p>
+                    <p class="text-muted">Presented by <a href="#">${feedItem.author}</a></p>
+                </div>
+            </div>
+        </sly>
+    </div>
+</div>

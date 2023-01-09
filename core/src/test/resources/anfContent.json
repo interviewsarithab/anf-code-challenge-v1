@@ -1,0 +1,794 @@
+{
+  "jcr:primaryType": "cq:Page",
+  "jcr:createdBy": "admin",
+  "jcr:created": "Mon Sep 12 2022 16:37:55 GMT+0100",
+  "jcr:content": {
+    "jcr:primaryType": "cq:PageContent",
+    "jcr:createdBy": "admin",
+    "jcr:title": "en",
+    "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+    "cq:contextHubSegmentsPath": "/etc/segmentation/contexthub",
+    "jcr:created": "Mon Sep 12 2022 16:37:55 GMT+0100",
+    "pageTitle": "ANF Code Challenge",
+    "sling:resourceType": "anf-code-challenge/components/page",
+    "cq:contextHubPath": "/etc/cloudsettings/default/contexthub",
+    "root": {
+      "jcr:primaryType": "nt:unstructured",
+      "layout": "responsiveGrid",
+      "sling:resourceType": "anf-code-challenge/components/container",
+      "container": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "title": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/title"
+        },
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "layout": "responsiveGrid",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "teaser": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "anf-code-challenge/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "teaser_copy": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "anf-code-challenge/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "teaser_copy_1579324932": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Epic Journey",
+            "actionsEnabled": "false",
+            "titleFromPage": "false",
+            "jcr:description": "<p>Don't stop half way, go for the top!</p>\r\n",
+            "descriptionFromPage": "false",
+            "sling:resourceType": "anf-code-challenge/components/teaser",
+            "textIsRich": "true",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "jcr:primaryType": "nt:unstructured",
+                "offset": "0",
+                "width": "4"
+              }
+            }
+          },
+          "helloworld": {
+            "jcr:primaryType": "nt:unstructured",
+            "text": "lalala :)",
+            "sling:resourceType": "anf-code-challenge/components/helloworld"
+          }
+        }
+      }
+    }
+  },
+  "exercise-1--saving-data-into-jcr": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Mon Sep 12 2022 16:47:34 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Exercise 1: Saving data into JCR",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Mon Sep 12 2022 16:47:34 GMT+0100",
+      "cq:lastModified": "Tue Sep 13 2022 23:33:36 GMT+0100",
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          },
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "anf-code-challenge/components/container",
+            "container": {
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:createdBy": "admin",
+              "action": "/var/anf-code-challenge",
+              "jcr:lastModifiedBy": "admin",
+              "jcr:created": "Mon Sep 12 2022 16:49:05 GMT+0100",
+              "id": "exercise-1-form",
+              "jcr:lastModified": "Tue Sep 13 2022 07:06:45 GMT+0100",
+              "sling:resourceType": "anf-code-challenge/components/form/container",
+              "actionType": "foundation/components/form/actions/store",
+              "text": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:createdBy": "admin",
+                "jcr:title": "First Name",
+                "jcr:lastModifiedBy": "admin",
+                "required": "true",
+                "jcr:created": "Mon Sep 12 2022 16:49:19 GMT+0100",
+                "id": "exercise-1-first-name",
+                "name": "firstName",
+                "rows": "2",
+                "type": "text",
+                "jcr:lastModified": "Tue Sep 13 2022 23:33:00 GMT+0100",
+                "sling:resourceType": "anf-code-challenge/components/form/text",
+                "requiredMessage": "This is a required field."
+              },
+              "text_67723231": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:createdBy": "admin",
+                "jcr:title": "Last Name",
+                "jcr:lastModifiedBy": "admin",
+                "required": "true",
+                "jcr:created": "Mon Sep 12 2022 16:50:00 GMT+0100",
+                "id": "exercise-1-last-name",
+                "name": "lastName",
+                "rows": "2",
+                "type": "text",
+                "jcr:lastModified": "Tue Sep 13 2022 23:33:14 GMT+0100",
+                "sling:resourceType": "anf-code-challenge/components/form/text",
+                "requiredMessage": "This is a required field."
+              },
+              "text_708225763": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:createdBy": "admin",
+                "jcr:title": "Age",
+                "constraintMessage": "Age should be a number.",
+                "jcr:lastModifiedBy": "admin",
+                "required": "true",
+                "jcr:created": "Mon Sep 12 2022 16:50:36 GMT+0100",
+                "id": "exercise-1-age",
+                "name": "age",
+                "rows": "2",
+                "type": "number",
+                "jcr:lastModified": "Tue Sep 13 2022 23:33:36 GMT+0100",
+                "sling:resourceType": "anf-code-challenge/components/form/text",
+                "requiredMessage": "This is a required field."
+              },
+              "country": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:createdBy": "admin",
+                "jcr:lastModifiedBy": "admin",
+                "jcr:created": "Mon Sep 12 2022 16:51:10 GMT+0100",
+                "jcr:lastModified": "Tue Sep 13 2022 10:09:59 GMT+0100",
+                "sling:resourceType": "anf-code-challenge/components/form/country",
+                "countries": "bulgaria"
+              },
+              "button": {
+                "jcr:primaryType": "nt:unstructured",
+                "jcr:createdBy": "admin",
+                "jcr:lastModifiedBy": "admin",
+                "jcr:created": "Mon Sep 12 2022 16:51:25 GMT+0100",
+                "jcr:lastModified": "Mon Sep 12 2022 16:51:25 GMT+0100",
+                "sling:resourceType": "anf-code-challenge/components/form/button"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "exercise-2--news-feed-component": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 14:04:07 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Exercise 2: News Feed Component",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 14:04:07 GMT+0100",
+      "cq:lastModified": "Tue Sep 13 2022 14:42:03 GMT+0100",
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          },
+          "container": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "anf-code-challenge/components/container",
+            "newsfeed": {
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:createdBy": "admin",
+              "jcr:lastModifiedBy": "admin",
+              "jcr:created": "Tue Sep 13 2022 14:42:03 GMT+0100",
+              "jcr:lastModified": "Tue Sep 13 2022 14:42:03 GMT+0100",
+              "sling:resourceType": "anf-code-challenge/components/newsfeed"
+            }
+          }
+        }
+      }
+    }
+  },
+  "page-1": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 1",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-2": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 2",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-3": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 3",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-4": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 4",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-5": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 5",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-6": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 6",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-7": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 7",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-8": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 8",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-9": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 9",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-10": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 10",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-11": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 11",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-12": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 12",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-13": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 13",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-14": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 14",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-15": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 15",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-16": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 16",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-17": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 17",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-18": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 18",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-19": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 19",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  },
+  "page-20": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "Page 20",
+      "cq:template": "/conf/anf-code-challenge/settings/wcm/templates/page-content",
+      "jcr:created": "Tue Sep 13 2022 15:13:20 GMT+0100",
+      "cq:lastModified": "Fri Apr 08 2022 14:07:24 GMT+0530",
+      "anfCodeChallenge": true,
+      "sling:resourceType": "anf-code-challenge/components/page",
+      "cq:lastModifiedBy": "admin",
+      "root": {
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "anf-code-challenge/components/container",
+        "container": {
+          "jcr:primaryType": "nt:unstructured",
+          "sling:resourceType": "anf-code-challenge/components/container",
+          "title": {
+            "jcr:primaryType": "nt:unstructured",
+            "sling:resourceType": "anf-code-challenge/components/title"
+          }
+        }
+      }
+    }
+  }
+}
