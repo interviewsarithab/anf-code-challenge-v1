@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core.pojo;
 
 import com.day.cq.wcm.api.Page;
@@ -25,3 +26,5 @@ public class ResultItem {
         return resultPath;
     }
 }
+
+/***END Code*****/

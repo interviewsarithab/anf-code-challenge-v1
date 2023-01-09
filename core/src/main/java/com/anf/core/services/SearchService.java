@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core.services;
 
 import com.anf.core.pojo.ResultWrapper;
@@ -9,3 +10,5 @@ public interface SearchService {
     ResultWrapper getSearchResult(String searchQueryType)
             throws RepositoryException, LoginException;
 }
+
+/***END Code*****/

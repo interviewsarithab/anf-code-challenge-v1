@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core.pojo;
 
 public class User {
@@ -45,3 +46,5 @@ public class User {
         this.country = country;
     }
 }
+
+/***END Code*****/

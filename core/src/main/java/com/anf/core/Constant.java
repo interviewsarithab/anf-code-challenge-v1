@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core;
 
 public final class Constant {
@@ -73,3 +74,5 @@ public final class Constant {
     public static final String TYPE = "type";
 
 }
+
+/***END Code*****/

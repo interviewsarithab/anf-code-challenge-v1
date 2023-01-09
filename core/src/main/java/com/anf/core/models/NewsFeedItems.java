@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core.models;
 
 
@@ -18,3 +19,5 @@ public class NewsFeedItems {
         return newsData;
     }
 }
+
+/***END Code*****/

@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core.servlets;
 
 import com.anf.core.pojo.User;
@@ -52,3 +53,5 @@ public class UserServlet extends SlingSafeMethodsServlet {
         }
     }
 }
+
+/***END Code*****/

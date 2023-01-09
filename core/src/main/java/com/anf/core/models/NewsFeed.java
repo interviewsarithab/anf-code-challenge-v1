@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core.models;
 
 import org.apache.sling.api.resource.Resource;
@@ -29,3 +30,5 @@ public class NewsFeed {
         return newsFeedItems.getItems();
     }
 }
+
+/***END Code*****/

@@ -1,3 +1,4 @@
+/***Begin Code - Saritha Bommakanti ***/
 package com.anf.core.pojo;
 
 import java.util.List;
@@ -15,3 +16,5 @@ public class ResultWrapper {
     }
 
 }
+
+/***END Code*****/
